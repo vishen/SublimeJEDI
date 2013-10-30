@@ -125,6 +125,9 @@ class Autocomplete(sublime_plugin.EventListener):
 
         :return: list of tuple(str, str)
         """
+	# WTF?!
+	return
+
         logger.info('JEDI completion triggered')
 
         if self.cplns_ready:
